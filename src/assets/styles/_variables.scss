@@ -1,0 +1,34 @@
+:root {
+
+  /* Couleurs DA */
+  --primary: #FF6A2C;// Orange CTA principal
+  --primary-light: #FFA26B;
+  --secondary: #2E9E5B; // Vert
+  --secondary-light: #5FCF8E;
+
+  --white: #FFFFFF;
+  --gray-1: #F7F7F7;// background
+  --gray-2: #E5E5E5;// border
+  --gray-3: #A0A0A0;// texte secondaire
+  --gray-4: #6B6B6B;
+
+  --text-color: #1A1A1A;
+  --text-secondary: #6B6B6B;
+
+  --success: #2E9E5B;
+  --error: #E53935;
+  --info: #3B82F6;
+
+  --font-family: 'Inter', 'Poppins', sans-serif;
+
+  --border-radius: 16px;
+
+  /* ombres*/
+  --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --box-shadow-hover: 0 6px 18px rgba(0, 0, 0, 0.08);
+  --box-shadow-nav: 0 2px 8px rgba(0, 0, 0, 0.06);
+
+  /* dégradé branding */
+  --gradient-primary: linear-gradient(90deg, #2E9E5B, #FF6A2C);
+
+}
