@@ -12,14 +12,14 @@ function Header(){
             <div className = "flex-fill">
                 <img src={mealink} alt="logo mealink"/>
             </div>
-            <ul>
-                <button className = "mr-5 btn btn-reverse-primary ">
+            <ul className= "d-flex align-items-center ">
+                <button className = "mr-5 btn btn-reverse-primary d-flex align-items-center justify-content-center">
                     <ShoppingBagIcon className={`${styles.icon}`} />
                     Réservez
                 </button>
                 
-                <button className = "mr-5 btn btn-primary">
-                    <UserCircleIcon className={`${styles.icon}`} />
+                <button className = "mr-5 btn btn-primary d-flex align-items-center justify-content-center">
+                    <UserCircleIcon className={` ${styles.icon}`} />
                     Connexion
                 </button>
             </ul>
